@@ -34,6 +34,26 @@
 		    <artifactId>cucumber-plugin</artifactId>
 		    <version>7.21.1</version>
         </dependency>
+         <!-- Apache POI for Excel processing -->
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-ooxml</artifactId>
+        <version>5.2.3</version>
+    </dependency>
+
+    <!-- Apache POI core library -->
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi</artifactId>
+        <version>5.2.3</version>
+    </dependency>
+
+    <!-- XMLBeans dependency required by Apache POI -->
+    <dependency>
+        <groupId>org.apache.xmlbeans</groupId>
+        <artifactId>xmlbeans</artifactId>
+        <version>5.2.2</version>
+    </dependency>
     </dependencies>
 
     <build>
